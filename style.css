@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2019/02/07/16/26/cocker-spaniel-3981587_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.cocker{
+padding: 20px;
+
+
+}
+
+
+.img{
+    background-image: url('https://cdn.pixabay.com/photo/2021/01/21/16/17/english-cocker-spaniel-5937757_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: 10px auto;
+    height: 20vh;
+
+}
+footer {
+    padding:  28px;
+    background-color: rgb(192, 153, 47);
+}
+
+footer p{
+    text-align: center;
+    line-height: 1;
+    font-weight: bold;
+}
